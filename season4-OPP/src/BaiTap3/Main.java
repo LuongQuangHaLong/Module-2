@@ -1,30 +1,19 @@
 package BaiTap3;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        StopWatch stopWatch = new StopWatch();
-        int[] number =new int[100000];
-        for (int i = 0; i <100000 ; i++) {
-            number[i]= (int) (Math.random()*100000);
-        }
-        stopWatch.start();
-        selectionSort(number);
-        stopWatch.stop();
-        System.out.println("Thời gian thực thi của thuật toán sắp xếp chọn cho 100,000 số là: " + stopWatch.getElapsedTime() + " milliseconds");
-    }
-    public static void selectionSort(int[] arr) {
-        int n = arr.length;
-
-        for (int i = 0; i < n - 1; i++) {
-            int minIndex = i;
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
-                }
+        Scanner scanner = new Scanner(System.in);
+        StopWatch watch = new StopWatch();
+        watch.start(); // bat dau bam gio
+        while (true){
+            int so = Integer.parseInt(scanner.nextLine());
+            if (so==0){
+                watch.stop(); // ket thuc bam gio
+                break;
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
         }
+        System.out.println("Thoi gian chech lech : "+watch.getElapsedTime()+" miliseconds ");
     }
 }

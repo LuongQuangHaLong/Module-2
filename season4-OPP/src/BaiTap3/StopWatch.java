@@ -4,35 +4,36 @@ import java.time.Duration;
 import java.time.Instant;
 
 public class StopWatch {
-    private Instant startTime;
-    private Instant endTime;
+    private long startTime;
+    private long stopTime;
 
-    public Instant getStartTime() {
+    public StopWatch() {
+        stopTime = System.currentTimeMillis();// Tra ve thoi gian hien tai cua he thong 1/1/1970
+    }
+
+    public long getStartTime() {
         return startTime;
     }
 
-    public Instant getEndTime() {
-        return endTime;
-    }
-    public StopWatch() {
+    public void setStartTime(long startTime) {
+        this.startTime = startTime;
     }
 
-    public StopWatch(Instant startTime) {
-        this.startTime = Instant.now();
+    public long getStopTime() {
+        return stopTime;
+    }
+
+    public void setStopTime(long stopTime) {
+        this.stopTime = stopTime;
     }
     public void start(){
-        this.startTime= Instant.now();
+        this.startTime=System.currentTimeMillis();
     }
+
     public void stop(){
-        this.endTime = Instant.now();
+        this.stopTime=System.currentTimeMillis();
     }
     public long getElapsedTime(){
-        if (endTime==null){  // chưa gọi end
-            Instant currentTime = Instant.now();
-            return Duration.between(startTime,currentTime).toMillis();
-        }else {
-            // đã gọi end
-            return Duration.between(startTime,endTime).toMillis();
-        }
+        return this.stopTime-this.startTime;
     }
 }
