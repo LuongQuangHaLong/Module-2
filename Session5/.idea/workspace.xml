@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1dad05-38a9-422f-a784-7dc3742b6583" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bai7-Abstract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai7-Abstract/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai8/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai8/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e60d0e08-a554-4461-bfb4-c1a349015b3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTVN/QuanLiThuVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTVN/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTVN/TacGia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTVN/ThuVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rikkeiacademy/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rikkeiacademy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rikkeiacademy/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +33,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/BaiTap6/EmployeeManager.java" root0="FORCE_HIGHLIGHTING" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2XemVHlEGq39uRgb7hNhRMsajzS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ZG872iyRmHmE94hl0gIM2nb3TH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,20 +60,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb1dad05-38a9-422f-a784-7dc3742b6583" name="Changes" comment="" />
-      <created>1698997946210</created>
+      <changelist id="e60d0e08-a554-4461-bfb4-c1a349015b3f" name="Changes" comment="" />
+      <created>1702036888793</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698997946210</updated>
-      <workItem from="1698997947249" duration="6308000" />
-      <workItem from="1699012453023" duration="877000" />
-      <workItem from="1699257797770" duration="4820000" />
-      <workItem from="1699431778522" duration="7363000" />
-      <workItem from="1699442089452" duration="83000" />
-      <workItem from="1699442263224" duration="302000" />
-      <workItem from="1699593679142" duration="29000" />
-      <workItem from="1702448248631" duration="2783000" />
-      <workItem from="1702604311228" duration="2341000" />
+      <updated>1702036888793</updated>
+      <workItem from="1702036889835" duration="2297000" />
+      <workItem from="1702307440699" duration="761000" />
+      <workItem from="1702448229941" duration="16000" />
+      <workItem from="1702463600653" duration="466000" />
+      <workItem from="1702605422767" duration="1901000" />
     </task>
     <servers />
   </component>
